@@ -15,8 +15,9 @@ div {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 100vh;
+  max-height: 20vh;
   flex-direction: row;
+ background-color: black;
 }
 
 
@@ -58,7 +59,7 @@ div {
     position: absolute;
     color: #000000;
     font-family: "Jua";
-    font-size: 25vw;
+    font-size: 20vw;
     text-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
     margin-right: 20px;
     top: 5vh;
