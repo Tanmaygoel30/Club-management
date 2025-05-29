@@ -1,0 +1,336 @@
+body,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+
+.banner {
+    position: relative;
+}
+
+
+.banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+    flex-direction: row;
+}
+@media screen and (max-width: 500px) and (min-width: 300px) {
+
+
+  /* Back Button  Start*/
+
+  .fa-arrow-left-long {
+    color: #050505;
+    position: absolute;
+    left: 4vw;
+    top: 12vh;
+    font-size: 5vw;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+  }
+  .fa-house {
+    color: #050505;
+    position: absolute;
+    left: 4vw;
+    top: 7vh;
+    font-size: 4vw;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+  /* Back Button End */
+
+  /* Designed By Start */
+
+  .design {
+    color: #000000;
+    font-family: "Jua";
+    position: absolute;
+    right: 2vw;
+    top: 7vh;
+    border: black;
+    border-radius: 3vw;
+    border: 0.2vw solid #000;
+    font-size: 4vw;
+    cursor: pointer;
+    text-decoration: none;
+    width: 22vw;
+    height: auto;
+    text-align: center;
+  }
+
+  .design:hover {
+    box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+  }
+
+  /* Designed By End */
+.road {
+    position: absolute;
+    left: 27vw;
+    top: 72vh;
+    transform: rotate(90deg);
+    height: -2vw;
+    width: 30vw;
+    border: 0.1vw black solid;
+}
+
+/*ARCHIVE START*/
+.Gallery {
+    -webkit-text-stroke: 0.2vw #fb6816;
+    position: absolute;
+    color:white;
+    font-family: "Oswald-Bold", Helvetica;
+    font-size: 12vw;
+    font-weight: 400;
+    letter-spacing: 0.07;
+    line-height:14vw ;
+    width: -120vw;
+    height: 43.52vh;
+    top: 10vh;
+    left: 28vw;
+    margin-right: 15vw; 
+    white-space: nowrap;
+}
+
+/* archive end */
+/* archivecard start */
+.archivecard,.archivecard2 {
+    display: block;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 0.2vw solid #000;
+    border-radius: 3vh;
+    position: absolute;
+    box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
+    height: 40vw;
+    right: 20vw;
+    width: 60vw;
+    overflow: hidden;
+}
+.archivecard{
+    top: 25vh;
+}
+.archivecard2{
+    top: 55vh;
+}
+
+/* archive card end */
+/* 2022-23 start */
+.number,.number2 {
+    position: absolute;
+    color: #000000;
+    font-family: "Oswald", Helvetica;
+    width: -120vw;
+    font-weight: 600;
+    font-size: 8vw;
+    height: 43.52vh;
+    margin-right: 15vw;
+    right: 18vw;
+}
+.number{
+    top: 18vh;
+}
+.number2{
+    top: 48vh;
+}
+
+.reports ul,.reports2 ul {
+  font-family: "Jua";
+  display: block;
+  font-size: 3.5vw;
+  justify-content: space-between;
+  position: absolute;
+  width: 40vw;
+  left:16vw;
+}
+.reports ul{
+    top: 26vh;
+}
+.reports2 ul{
+    top: 56vh;
+}
+.reports a,.reports2 a{
+    color: #000;
+    text-decoration: none;
+}
+.reports a:hover,.reports2 a:hover{
+    color:#ff7f0a
+}
+}
+
+@media screen and (max-width: 1921px) and (min-width: 501px) {
+
+/* Back Button  Start*/
+
+.fa-arrow-left-long {
+    color: #ffffff;
+    background-color: #000000;
+    position: absolute;
+    left: 0.5vw;
+    top: 35.5vh;
+    padding: 1.11vh 1.39vw;
+    border: none;
+    border-radius: 1vw;
+    font-size: 1.8vw;
+    cursor: pointer;
+    text-decoration: none;
+    width: 2vw;
+    height: 1.6vw;
+    text-align: center;
+}
+
+.fa-arrow-left-long:hover {
+    box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+}
+
+.fa-house {
+    color: #ffffff;
+    background-color: #000000;
+    position: absolute;
+    left: 0.5vw;
+    top: 26.5vh;
+    padding: 1.11vh 1.39vw;
+    border: none;
+    border-radius: 1vw;
+    font-size: 1.8vw;
+    cursor: pointer;
+    text-decoration: none;
+    width: 2vw;
+    height: 1.6vw;
+    text-align: center;
+}
+
+.fa-house:hover {
+    box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+}
+
+
+/* Back Button End */
+
+/* Designed By Start */
+.design {
+    color: #ffffff;
+    background-color: #000000;
+    font-family: "Jua";
+    position: absolute;
+    right: 0.5vw;
+    top: 26.5vh;
+    border: none;
+    border-radius: 1vw;
+    font-size: 1.9vw;
+    cursor: pointer;
+    text-decoration: none;
+    width: 12vw;
+    height: 2.6vw;
+    text-align: center;
+}
+
+.design:hover {
+    box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+}
+
+/* Designed By End */
+.road {
+    position: absolute;
+    left: 27vw;
+    top: 72vh;
+    transform: rotate(90deg);
+    height: -2vw;
+    width: 30vw;
+    border: 0.1vw black solid;
+}
+
+/*ARCHIVE START*/
+.Gallery {
+    -webkit-text-stroke: 0.2vw #fb6816;
+    position: absolute;
+    color:white;
+    font-family: "Oswald-Bold", Helvetica;
+    font-size: 13vw;
+    font-weight: 400;
+    letter-spacing: 0.07;
+    line-height:14vw ;
+    width: -120vw;
+    height: 43.52vh;
+    top: 35vh;
+    left: 50vw;
+    margin-right: 15vw; 
+    white-space: nowrap;
+}
+
+/* archive end */
+/* archivecard start */
+.archivecard,.archivecard2 {
+    display: block;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 0.2vw solid #000;
+    border-radius: 5vh;
+    position: absolute;
+    box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
+    height: 26vw;
+    left: 7vw;
+    width: 40vw;
+    overflow: hidden;
+}
+.archivecard{
+    top: 35vh;    
+}
+.archivecard2{
+    top: 110vh;   
+}
+
+/* archive card end */
+
+/* 2022-23 start */
+.number,.number2 {
+    position: absolute;
+    color: #000000;
+    font-family: "Oswald";
+    width: -120vw;
+    font-weight: 600;
+    font-size: 5vw;
+    height: 43.52vh;
+    right: 4vw;
+    margin-right: 15vw;
+}
+.number{
+    top: 65vh;
+}
+
+.number2 {
+    top: 127vh;
+}
+
+
+.reports ul,.reports2 ul {
+  font-family: "Jua";
+  display: block;
+  font-size: 1.9vw;
+  justify-content: space-between;
+  position: absolute;
+  width: 40vw;
+  left:8vw;
+}
+.reports ul{
+    top: 45vh;
+}
+.reports2 ul {
+    top: 117.5vh;
+}
+.reports a,.reports2 a{
+    color: #000;
+    text-decoration: none;
+}
+.reports a:hover,.reports2 a:hover{
+    color:#ff7f0a
+}
+
+/* 2022-23 start */
+
+}

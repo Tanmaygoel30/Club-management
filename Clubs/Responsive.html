@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literary Club || CSE</title>
+    <link rel="stylesheet" href="Responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="banner">
+        <a href="https://www.pvpsiddhartha.ac.in/"><img src="img/home/head.jpg" alt="Prasad V. Potluri Banner"></a>
+    </div>
+
+    <div class="nav">
+        <a class="fa-solid fa-house" href="Home.html"></a>
+        <div class="label">Literary</div>
+        <a class="btn design" href="https://vigneshvaranasi.github.io/PVPSIT/Clubs/design" target="_blank">Designed By</a>
+    </div>
+
+
+    <div class="herosec">
+
+        <img src="img/literary/studentwithbook.svg" alt="rocket" class="rocket">
+
+        <!-- Highlightes Carousel -->
+        <div id="indicators-carousel" class="relative carousel" data-carousel="static">
+            <div class="relative h-56 overflow-hidden md:h-96">
+                <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                    <img src="img/literary/Cards/Limg (5).JPG" class="block w-full" alt="Image 1">
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="img/literary/Cards/Limg (2).JPG" class="block w-full" alt="Image 2">
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="img/literary/Cards/Limg (6).JPG" class="block w-full" alt="Image 3">
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="img/literary/Cards/Limg (1).JPG" class="block w-full" alt="Image 4">
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="img/literary/Cards/Limg (4).JPG" class="block w-full" alt="Image 5">
+                </div>
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="img/literary/Cards/Limg (3).JPG" class="block w-full" alt="Image 6">
+                </div>
+            </div>
+            <!-- Slider indicators -->
+            <div class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                    data-carousel-slide-to="0"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                    data-carousel-slide-to="1"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                    data-carousel-slide-to="2"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+                    data-carousel-slide-to="3"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+                    data-carousel-slide-to="4"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 6"
+                    data-carousel-slide-to="5"></button>
+            </div>
+            <!-- Slider controls -->
+            <button type="button"
+                class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-prev>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M5 1 1 5l4 4" />
+                    </svg>
+                    <span class="sr-only">Previous</span>
+                </span>
+            </button>
+            <button type="button"
+                class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-next>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 9 4-4-4-4" />
+                    </svg>
+                    <span class="sr-only">Next</span>
+                </span>
+            </button>
+        </div>
+
+        <div class="second-nav">
+            <a class="about btn" href="#about-section" onclick="smoothScroll('#abt')">About</a>
+            <a class="archive btn" href="LiteraryArchive.html">Archive</a>
+            <a class="Gallery btn" href="LiteraryGallery.html">Gallery</a>
+        </div>
+    </div>
+
+    
+    <div class="dotted-events">
+
+        <img class="documents" src="img/literary/todo.svg" alt="Man catching documents" loading="lazy">
+
+        <div class="events">
+            <h1>2022-23</h1>
+            <div class="eventline"></div>
+            <ul>
+                <li><a href="Maintenance/Update.html">Group Discussion</a></li>
+                <li><a href="Maintenance/Update.html">Book & Movie Review</a></li>
+                <li><a href="Maintenance/Update.html">Quiz</a></li>
+                <li><a href="Maintenance/Update.html">Debate</a></li>
+                <li><a href="Maintenance/Update.html">Watching Sitcom</a></li>
+                <li><a href="Maintenance/Update.html">Advertising Strategy</a></li>
+                <li><a href="Maintenance/Update.html">Jam</a></li>
+            </ul>
+        </div>
+        <div class="reports">
+            <h1>2023-24</h1>
+            <div class="reportline"></div>
+            <ul>
+                <li><a target="_blank" href="Archive/Literary Club/1. group discussion.pdf">Group Discussion</a></li>
+                <li><a target="_blank" href="Archive/Literary Club/2. Book & movie review.pdf">Book & Movie Review</a>
+                </li>
+                <li><a target="_blank" href="Archive/Literary Club/3. QUIZ.pdf">Quiz</a></li>
+                <li><a target="_blank" href="Archive/Literary Club/4. DEBATE.pdf">Debate</a></li>
+                <li><a target="_blank" href="Archive/Literary Club/5. WATCHING SITCOM.pdf">Watching Sitcom</a></li>
+                <li><a target="_blank" href="Archive/Literary Club/6. Advertising strategy.pdf">Advertising Strategy</a>
+                </li>
+                <li><a target="_blank" href="Archive/Literary Club/7. JAM report.pdf">Jam</a></li>
+            </ul>   
+        </div>
+    </div>
+    
+    
+    <div class="quotation">
+        <div class="quote">
+            <p>“The true <span>freedom</span> of<span> reading</span> is the freedom to see any story from your <span>own perspective</span>.“</p>
+        </div>
+        <img class="cycle" src="img/literary/studying.svg" alt="Cycle" loading="lazy">
+    </div>
+    <div class="road"></div>    
+
+    <h2 class="schead">Student Coordinators</h2>
+    <div class="scontainer">
+        <div class="scard">
+            <img class="simg" src="/Clubs/img/Design/eswar.jpeg" alt="">
+            <p class="name">Eswar Aditya</p>
+            <p class="des">President</p>
+            <div class="line"></div>
+            <div class="icons">
+                <a href="tel:+919963293006">
+                    <i class="fas fa-phone"></i>
+                </a>
+                <a href="mailto:yeswaraditya3006@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/yarlagaddaeswaraditya/">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.instagram.com/eswaraditya5">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="scard">
+            <img class="simg" src="img/Innovation/Coordinators/vignesh.JPEG" alt="">
+            <p class="name">Vignesh Varanasi</p>
+            <p class="des">Vice President</p>
+            <div class="line"></div>
+            <div class="icons">
+                <a href="tel:+919440632606">
+                    <i class="fas fa-phone"></i>
+                </a>
+                <a href="mailto:mailto:varanasivsv@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/vigneshvaranasi">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.instagram.com/vignesh_varanasi">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="scard">
+            <img class="simg" src="img/Innovation/Coordinators/Sumanth.jpg" alt="">
+            <p class="name">V. Sumanth</p>
+            <p class="des">Secretary</p>
+            <div class="line"></div>
+            <div class="icons">
+                <a href="tel:+919704617051">
+                    <i class="fas fa-phone"></i>
+                </a>
+                <a href="mailto:mailto:sumanthvallabhaneni1234@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sumanth-vallabhaneni">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.instagram.com/______.sumanth____/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="scard">
+            <img class="simg" src="img/Innovation/Coordinators/Sirisha.jpg" alt="">
+            <p class="name">V. Phani Sirisha</p>
+            <p class="des">Vice Secretary</p>
+            <div class="line"></div>
+            <div class="icons">
+                <a href="tel:+919494381636">
+                    <i class="fas fa-phone"></i>
+                </a>
+                <a href="mailto:mailto:veerankiphanisirisha@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/veeranki-phani-sirisha-423179249">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.instagram.com/siiri.46">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="scard">
+            <img class="simg" src="img/Innovation/Coordinators/afzal.jpg" alt="">
+            <p class="name">Afzal</p>
+            <p class="des">Treasurer</p>
+            <div class="line"></div>
+            <div class="icons">
+                <a href="tel:+919390456707">
+                    <i class="fas fa-phone"></i>
+                </a>
+                <a href="mailto:mailto:muhammadzfzalofc@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/syed-muhammad-afzal-305865287">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="Maintenance/Update.html">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="scard">
+            <img class="simg" src="img/Innovation/Coordinators/Fakruddin.jpeg" alt="">
+            <p class="name">Fakruddin</p>
+            <p class="des">Member</p>
+            <div class="line"></div>
+            <div class="icons">
+                <a href="tel:+917013357181">
+                    <i class="fas fa-phone"></i>
+                </a>
+                <a href="mailto:mailto:shaikfakruddin2145@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/shaik-fakruddin-940296280/">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://instagram.com/shaikfakruddin55">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="scard">
+            <img class="simg" src="img/Innovation/Coordinators/Harshitha.jpg" alt="">
+            <p class="name">Harshitha Perumalla</p>
+            <p class="des">Member</p>
+            <div class="line"></div>
+            <div class="icons">
+                <a href="tel:+919573552122">
+                    <i class="fas fa-phone"></i>
+                </a>
+                <a href="mailto:mailto:harshithaperumalla23@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/perumalla-harshitha-975798273">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://instagram.com/harshiii.122">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="scard">
+            <img class="simg" src="img/Innovation/Coordinators/pavan-squared.jpg" alt="">
+            <p class="name">Pavan Kumar</p>
+            <p class="des">Member</p>
+            <div class="line"></div>
+            <div class="icons">
+                <a href="tel:+919014914111">
+                    <i class="fas fa-phone"></i>
+                </a>
+                <a href="mailto:mailto:pavankc005@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/pavankch">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://instagram.com/pavan.cos">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="line"></div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="homes.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,644 @@
+/* Banner Start */
+body,
+div {
+  margin: 0;
+  padding: 0;
+
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 100vh;
+}
+
+/* Banner End */
+
+
+.side-menu,
+.menu-icon {
+  display: none;
+}
+
+/* Back Button  Start*/
+
+.fa-house {
+  color: #ffffff;
+  background-color: #000000;
+  padding:10px 20px;
+  border: none;
+  border-radius: 1vw;
+  font-size: 1.8vw;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.fa-house:hover {
+  box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+}
+
+/* Back Button End */
+
+/* Designed By Start */
+.design {
+  padding:10px 20px;
+  color: #ffffff;
+  background-color: #000000;
+  font-family: "Jua";
+  border: none;
+  border-radius: 1vw;
+  font-size: 1.9vw;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.design:hover {
+  box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+}
+
+/* Designed By End */
+
+/* innovation end */
+.label {
+  position: absolute;
+  color: #000000;
+  font-family: "Jua";
+  font-size: 7vw;
+  text-shadow: 2px 2px 4px #ff7f0a;
+  width: 50.05vw;
+  height: 43.52vh;
+  top: 22.9vh;
+  left: 34vw;
+  margin-right: 15vw;
+}
+
+/* innovation end */
+
+
+/* Big Card Images Start */
+
+.card {
+  display: block;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border: 0.2vw solid #000;
+  box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
+  border-radius: 5vh;
+  position: absolute;
+  top: 42vh;
+  height: 26vw;
+  right: 21vw;
+  width: 45vw;
+  overflow: hidden;
+}
+
+.slideshow {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 5s ease-in-out;
+}
+
+.slide {
+  width: 45vw;
+  height: 26vw;
+  object-fit: cover;
+  display: flex;
+}
+
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 2em;
+  z-index: 1;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+/* Big Card Images End */
+
+
+
+/* Navigation Start */
+
+.about,
+.archive,
+.Gallery {
+  color: #ffffff;
+  background-color: #000000;
+  font-family: "Jua";
+  position: absolute;
+  border-radius: 0.6vw;
+  font-size: 1.9vw;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  right: 1.5vw;
+  width: 13vw;
+  height: 2.6vw;
+}
+
+.about {
+  top: 55vh;
+}
+
+.archive {
+  top: 67vh;
+}
+
+.Gallery {
+  top: 79vh;
+}
+
+.about:hover,
+.register:hover,
+.archive:hover,
+.Gallery:hover {
+  box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
+}
+
+/* Navigation End */
+
+/* Rocket picture start */
+.rocket {
+  position: absolute;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 28vw;
+  height: 34vw;
+  left: 3vw;
+  top: 33vh;
+}
+
+/* Rocket picture end */
+
+/* Events start */
+.dotted-events {
+  font-family: "Jua";
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-radius: 5vh;
+  text-align: center;
+  /* position: absolute; */
+  top: 105vh;
+  height: auto;
+  width: 87vw;
+  left: 4.5vw;
+  border: 0.2vw dashed #ff7f0a;
+}
+
+/* Documents Image start */
+.documents {
+  max-width: 50vw;
+  max-height: 50vh;
+
+}
+
+/* .events h1
+  {
+    font-size: 2rem;
+    font-family: "Jua";
+    color: black;
+    text-decoration: none;
+  } */
+.events h1,
+.reports h1 {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+}
+
+.events a,
+.reports a {
+  font-size: 1.7rem;
+  font-family: "Jua";
+  color: black;
+  text-decoration: none;
+}
+
+.events,
+.reports {
+  width: auto;
+}
+
+.events ul {
+  text-align: left;
+}
+
+.reports ul {
+  text-align: left;
+}
+
+/* Events End */
+
+
+
+/* Book Picture start */
+
+/* About Start */
+.dot-abouts {
+  display: block;
+  justify-content: space-between;
+  padding: 100px;
+  padding: 20px;
+  border-radius: 5vh;
+  text-align: center;
+  position: absolute;
+  top: 210vh;
+  height: 38vw;
+  width: 30vw;
+  left: 10vw;
+  border: 0.2vw dashed #ff7f0a;
+}
+
+.abouts {
+  font-family: "Jua";
+  color: black;
+  display: block;
+  border: none;
+  text-align: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: absolute;
+  top: 208vh;
+  height: 30vw;
+  width: 29vw;
+  left: 10vw;
+  overflow: visible;
+}
+
+.aboutsline {
+  position: absolute;
+  left: 49.5vh;
+  color: black;
+  top: 219vh;
+  width: 6vw;
+  border: 0.1vw black solid;
+}
+
+.textbox {
+  font-family: "Jua";
+  color: black;
+  display: block;
+  border: none;
+  justify-content: space-between;
+  padding: 20px;
+  position: absolute;
+  top: 218vh;
+  height: 33vw;
+  width: 29vw;
+  left: 10vw;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.3vw;
+}
+
+/* About end */
+/*faculty cards Start*/
+
+/* shakinghands image start */
+.shakinghands {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 27vw;
+  height: 29vw;
+  right: 36.5vw;
+  top: 304vh;
+}
+
+/* shakinghands image end */
+.fc {
+  font-family: "Jua";
+  position: relative;
+  top: 277vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  font-family: "Jua";
+  position: relative;
+  top: 278vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cordinator-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32vw;
+
+}
+
+.faculty1,
+.faculty2 {
+  background-color: #ffffff;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex-direction: row;
+  border: 0.15vw solid #000;
+  border-radius: 3vh;
+  text-align: center;
+  height: 15vw;
+  width: 28vw;
+  box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
+
+}
+
+.fac1,
+.fac2 {
+  background-color: #ffffff;
+  border: 0.15vw solid #000;
+  border-radius: 10%;
+  position: absolute;
+  display: flex;
+  text-align: center;
+  padding: 0px;
+  height: 12vw;
+  width: 10vw;
+  top: 4.5vw;
+}
+
+.fac1 {
+  left: 21vw;
+}
+
+.fac2 {
+  right: 5vw;
+}
+
+.facn1,
+.facn2 {
+  position: relative;
+  left: -7vw;
+  top: 5vh;
+  font-size: 1.6vw;
+}
+
+.fline1,
+.fline2 {
+  position: relative;
+  border: 0.1vw black solid;
+  left: 3vw;
+  width: 10vw;
+  top: 7vh;
+}
+
+.faculty1 a,
+.faculty2 a {
+  display: inline-block;
+  position: relative;
+  left: -6vw;
+  top: 7vh;
+  margin: 5px;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+.faculty1 a:hover,
+.faculty2 a:hover {
+  color: #ff7f0a;
+}
+
+/*faculty cards end */
+
+
+/* student cards Start*/
+
+.sc {
+  font-family: "Jua";
+  position: relative;
+  top: 280vh;
+  font-size: 2.5vw;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxes1,
+.boxes2 {
+  font-family: "Jua";
+  position: relative;
+  top: 280vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.student-card,
+.student-card2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 90px;
+
+}
+
+.student1,
+.student2,
+.student3,
+.student4,
+.student5,
+.student6,
+.student7,
+.student8 {
+  background-color: #ffffff;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex-direction: row;
+  border: 0.15vw solid #000;
+  border-radius: 3vh;
+  text-align: center;
+  left: 15vw;
+  height: 20vw;
+  width: 15vw;
+  box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
+}
+
+.simg1,
+.simg2,
+.simg3,
+.simg4,
+.simg5,
+.simg6,
+.simg7,
+.simg8 {
+  background-color: #ffffff;
+  border: 0.15vw solid #000;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  text-align: center;
+  padding: 0px;
+  height: 10vw;
+  width: 10vw;
+  top: 3vw;
+}
+
+.simg1,
+.simg5 {
+  left: 8.8vw;
+}
+
+.simg2,
+.simg6 {
+  left: 32.5vw;
+}
+
+.simg3,
+.simg7 {
+  left: 56.1vw;
+}
+
+.simg4,
+.simg8 {
+  left: 79.7vw;
+}
+
+.stun1,
+.stun2,
+.stun3,
+.stun4,
+.stun5,
+.stun6,
+.stun7,
+.stun8 {
+  position: relative;
+  top: 21vh;
+  font-size: 1.6vw;
+}
+
+.line1 {
+  position: relative;
+  border: 0.1vw black solid;
+  top: 21vh;
+}
+
+.line2 {
+  position: relative;
+  border: 0.1vw black solid;
+  top: 22vh;
+}
+
+
+.student-card .student1 a,
+.student-card .student2 a,
+.student-card .student3 a,
+.student-card .student4 a {
+  display: inline-block;
+  position: relative;
+  top: 22vh;
+  margin: 5px;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+.student-card .student1 a:hover,
+.student-card .student2 a:hover,
+.student-card .student3 a:hover,
+.student-card .student4 a:hover {
+  color: #ff7f0a;
+}
+
+.student-card2 .student5 a,
+.student-card2 .student6 a,
+.student-card2 .student7 a,
+.student-card2 .student8 a {
+  display: inline-block;
+  position: relative;
+  top: 22vh;
+  margin: 5px;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+.student-card2 .student5 a:hover,
+.student-card2 .student6 a:hover,
+.student-card2 .student7 a:hover,
+.student-card2 .student8 a:hover {
+  color: #ff7f0a;
+}
+
+/* student cards End*/
+
+/* Social Handles Start */
+.sh {
+  font-family: "Jua";
+  position: relative;
+  top: 277vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.sh-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.social a {
+  display: inline-block;
+  margin: 5px;
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social a:hover {
+  color: #ff7f0a;
+}
+
+/* Social Handles end */
+
+.boxes1 span,
+.boxes2 span {
+  color: #ff7f0a;
+}
+
+.cyclecontainer{
+  position: relative;
+}

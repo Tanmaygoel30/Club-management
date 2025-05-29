@@ -1,0 +1,371 @@
+@media screen and (max-width: 500px) and (min-width: 300px) {
+
+    body,
+    h1,
+    p {
+        margin: 0;
+        padding: 0;
+        background-color: #fff5e0;
+    }
+
+
+    /* Rectangular box start */
+    .rectangle {
+        background-color: #fb6816de;
+        height: 180%;
+        left: 2%;
+        right: 2%;
+        position: absolute;
+        top: 1%;
+        bottom: 1%;
+    }
+
+    /* Inside content */
+
+    .text-wrapper {
+        text-align: center;
+        color: #fff5e0;
+        font-family: "Oswald-Regular", Helvetica;
+        font-size: 9vh;
+        font-weight: 400;
+        letter-spacing: 2.3vw;
+        align-items: center;
+        transform: translate(-50%, -50%);
+        line-height: normal;
+        position: absolute;
+        top: 9vh;
+        left: 50%;
+    }
+
+
+
+    /* contact card box for eswar */
+    /* outer box start */
+    .outerbox1,
+    .outerbox2,
+    .outerbox3,
+    .outerbox4 {
+        height: 30%;
+        position: absolute;
+        width: 50%;
+        background-color: #ffd9b7;
+    }
+
+    .outerbox1 {
+        left: 6vw;
+        top: 20vh;
+    }
+
+    .outerbox2 {
+        right: 6vw;
+        top: 60vh;
+    }
+
+    .outerbox3 {
+        left: 6vw;
+        top: 100vh;
+    }
+
+    .outerbox4 {
+        right: 6vw;
+        top: 140vh;
+    }
+
+    /* text */
+    .text1,
+    .text2,
+    .text3,
+    .text4 {
+        position: absolute;
+        color: black;
+        font-family: "Roboto Mono", Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        height: 42vh;
+        top: 0%;
+        left: 7%;
+        text-decoration: none;
+        text-align: end;
+    }
+
+    /* inner box start */
+    /* inner box design start */
+    .innerbox1,
+    .innerbox2,
+    .innerbox3,
+    .innerbox4 {
+        background-color: #fff5e0;
+        position: absolute;
+        top: 2.5vh;
+        height: 100%;
+        width: 100%;
+        filter: drop-shadow(7px 8px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .image1,
+    .image2,
+    .image3,
+    .image4 {
+        position: fixed;
+        object-fit: cover;
+        top: 5%;
+        border-radius: 5px;
+        width: 90%;
+        height: 80%;
+        left: 1.7vw;
+    }
+
+    .sign1,
+    .sign2,
+    .sign3,
+    .sign4 {
+        position: fixed;
+        font-family: 'Cedarville Cursive', cursive;
+        font-size: 7vw;
+        font-weight: 60;
+        text-decoration: underline;
+        transform: rotate(-12deg);
+        top: 79.5%;
+        left: 25%;
+    }
+
+    .sign3 {
+        left: 15%;
+    }
+
+    .roll1,
+    .roll2,
+    .roll3,
+    .roll4 {
+        position: fixed;
+        font-family: "Roboto Mono", Helvetica, sans-serif;
+        font-size: 5vw;
+        font-weight: 60;
+        text-decoration: none;
+        color: black;
+        top: 105%;
+        left: 15%;
+    }
+
+    .innerbox1 a,
+    .innerbox2 a,
+    .innerbox3 a,
+    .innerbox4 a
+     {
+            display: inline-block;
+            position: relative;
+            top: 35vh;
+            left:10vw;
+            margin: 5px;
+            font-size: 5vw;
+            color: #000;
+            text-decoration: none;
+            filter: none;
+    }
+
+
+    .innerbox1 a:hover,
+    .innerbox2 a:hover,
+    .innerbox3 a:hover,
+    .innerbox4 a:hover {
+        color: #ffd9b7;
+    }
+
+}
+
+
+@media screen and (max-width: 1921px) and (min-width: 501px) {
+
+    /* Reset some default margin and padding */
+    body,
+    h1,
+    p {
+        margin: 0;
+        padding: 0;
+        background-color: #fff5e0;
+    }
+
+    /* Rectangular box start */
+    .rectangle {
+        background-color: #fb6816de;
+        height: 42.1vw;
+        height: 90%;
+        left: 1.9140625vw;
+        position: fixed;
+        width: 96vw;
+        top: 5%;
+    }
+
+    /* Inside content */
+    .label {
+        height: 30vh;
+        width: 20vw;
+
+    }
+
+    .text-wrapper {
+        color: #fff5e0;
+        font-family: "Oswald-Regular", Helvetica;
+        font-size: 20vh;
+        font-weight: 400;
+        left: 33.4vw;
+        letter-spacing: 2.3vw;
+        line-height: normal;
+        position: fixed;
+        top: 31px;
+    }
+
+
+    /* contact card box for eswar */
+    /* outer box start */
+    .outerbox1,
+    .outerbox2,
+    .outerbox3,
+    .outerbox4 {
+        height: 25vh;
+        position: fixed;
+        width: 13.3vw;
+        background-color: #ffd9b7;
+        top: 34vh;
+    }
+
+    .outerbox1 {
+        left: 6.5vw;
+    }
+
+    .outerbox2 {
+        left: 31vw;
+    }
+
+    .outerbox3 {
+        left: 56vw;
+    }
+
+    .outerbox4 {
+        left: 79.9vw;
+    }
+
+    /* text */
+    .text1,
+    .text2,
+    .text3,
+    .text4 {
+        position: fixed;
+        color: black;
+        text-align: end;
+        font-family: "Roboto Mono", Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        height: 42vh;
+        top: 34.7vh;
+        width: 15vw;
+        text-decoration-color: black;
+        text-decoration: none;
+    }
+
+    .text1 {
+        left: 4.4vw;
+    }
+
+    .text2 {
+        left: 28.9vw;
+    }
+
+    .text3 {
+        left: 54vw;
+    }
+
+    .text4 {
+        left: 77.8vw;
+    }
+
+    /* inner box start */
+    /* inner box design start */
+    .innerbox1,
+    .innerbox2,
+    .innerbox3,
+    .innerbox4 {
+        background-color: #fff5e0;
+        position: fixed;
+        top: 38vh;
+        height: 34.5vh;
+        width: 13.3vw;
+        filter: drop-shadow(7px 8px 4px rgba(0, 0, 0, 0.25));
+        left: 10w;
+    }
+
+    .image1,
+    .image2,
+    .image3,
+    .image4 {
+        position: fixed;
+        object-fit: cover;
+        top: 2.6vh;
+        border-radius: 5px;
+        width: 10vw;
+        height: 23.5vh;
+        left: 1.7vw;
+    }
+
+    .sign1,
+    .sign2,
+    .sign3,
+    .sign4 {
+        position: fixed;
+        font-family: 'Cedarville Cursive', cursive;
+        font-size: 2.4vw;
+        font-weight: 60;
+        text-decoration: underline;
+        transform: rotate(-12deg);
+        top: 24.5vh;
+        left: 3.2vw;
+    }
+
+    .sign3 {
+        left: 1vw;
+    }
+
+    .sign4 {
+        left: 3.5vw;
+    }
+
+    .roll1,
+    .roll2,
+    .roll3,
+    .roll4 {
+        position: fixed;
+        font-family: "Roboto Mono", Helvetica, sans-serif;
+        font-size: 1.5vw;
+        font-weight: 60;
+        text-decoration: none;
+        color: black;
+        top: 40vh;
+        left: 2.3vw;
+    }
+
+    .innerbox1 a,
+    .innerbox2 a,
+    .innerbox3 a,
+    .innerbox4 a
+     {
+            display: inline-block;
+            position: relative;
+            top: 45vh;
+            left:2.5vw;
+            margin: 5px;
+            font-size: 1.5vw;
+            color: #000;
+            text-decoration: none;
+            filter: none;
+    }
+
+
+    .innerbox1 a:hover,
+    .innerbox2 a:hover,
+    .innerbox3 a:hover,
+    .innerbox4 a:hover {
+        color: #ffd9b7;
+    }
+    
+
+}

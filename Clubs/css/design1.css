@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: orange;
+}
+
+.parent
+{
+    margin-top: 180px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 170px;
+}
+.outerbox1,.outerbox2,.outerbox3,.outerbox4
+{
+    width: 200px;
+    height: 270px;
+    background-color: #ffd9b7;
+   
+}
+.innerbox1,.innerbox2,.innerbox3,.innerbox4
+{
+    width: 200px;
+    height: 270px;
+    background-color: #f5f5f5;
+    font-family: "Jua";
+    font-size: 2rem;
+    color: #000000; 
+    text-align: center;
+    border: 1.5px solid #fdefef;
+    margin-top: 10px;
+}
+.text1,.text2,.text3,.text4
+{
+    margin-top: 20px;
+    margin-left: 120px;
+    font-size: 1.5rem;
+    color: #100e0d;
+}
+.image1,.image2,.image3,.image4
+{
+    width: 180px;
+    height:200px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.icons
+{
+    margin-top: 20px;
+    margin-bottom: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.sign1,.sign2,.sign3,.sign4 {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 2.5rem;
+    font-weight: 60;
+    margin-top: -30px;
+    text-decoration: underline;
+    transform: rotate(-12deg);
+}
+
+.roll1,.roll2,.roll3,.roll4
+{
+    font-size: 1.5rem;
+    color: #100e0d;
+margin-top: 40px;
+}
+
+

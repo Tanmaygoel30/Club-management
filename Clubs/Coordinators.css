@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.schead{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 2rem;
+    text-align: center;
+    color: #000000;
+    font-family: "Jua";
+}
+.scontainer{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    font-family: "Jua";
+}
+.scard{
+    width: 230px;
+    height: 310px;
+    background-color: #f5f5f5;
+    border: 1.5px solid #000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    box-shadow: 7px 7px 12px #ff7f0a;
+    margin-top: -40px;
+}
+.scard .name{
+    margin-top: 5px;
+    font-size: 1.45rem;
+    color: #000;
+}
+.scard .des{
+    font-size: 1.4rem;
+    color: #ff7f0a;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.scard .simg{
+    width: 130px;
+    height:130px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 1.5px solid #000;
+}  
+.line {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px black solid;
+    width: 180px;
+}
+.scard .icons{
+    display: flex;
+    color: #000;
+    gap: 20px;
+}
+.scard .icons a{
+    font-family: "Jua";
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.scard .icons a:hover{
+    color: #ff7f0a;
+}
