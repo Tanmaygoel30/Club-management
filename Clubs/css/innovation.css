@@ -4,26 +4,20 @@ div {
   padding: 0;
 }
 
-
 .banner {
   position: relative;
 }
-
 
 .banner img {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 20vh;
+  max-height: 22vh;
   flex-direction: row;
   background-color: #000000;
 }
 
-
 @media screen and (max-width: 500px) and (min-width: 300px) {
-
-
-
   .about,
   .archive,
   .Gallery {
@@ -181,7 +175,6 @@ div {
     margin-right: 15vw;
   }
 
-
   /* innovation end */
 
   /* Big Card Images Start */
@@ -248,7 +241,7 @@ div {
   }
 
   .events a:hover {
-    color: #ff7f0a
+    color: #ff7f0a;
   }
 
   .reports a {
@@ -257,7 +250,7 @@ div {
   }
 
   .reports a:hover {
-    color: #ff7f0a
+    color: #ff7f0a;
   }
 
   .dotted-reports {
@@ -290,7 +283,6 @@ div {
   }
 
   .reports ul {
-
     font-family: "Jua";
     display: block;
     font-size: 3.1vw;
@@ -304,7 +296,6 @@ div {
   }
 
   /* Events End */
-
 
   /* Qoutation Start */
   .quote {
@@ -326,7 +317,6 @@ div {
   }
 
   /* Qoutation End */
-
 
   /* About Start */
   .dot-abouts {
@@ -378,7 +368,6 @@ div {
     left: 10vw;
     max-width: 100%;
     font-size: 2vw;
-    ;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -416,7 +405,6 @@ div {
     flex-direction: column;
     align-items: center;
     gap: 10vw;
-
   }
 
   .faculty1,
@@ -431,7 +419,6 @@ div {
     height: 20vw;
     width: 48vw;
     box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
-
   }
 
   .fac1,
@@ -460,7 +447,6 @@ div {
   .fac3 {
     top: 75%;
   }
-
 
   .facn1,
   .facn2,
@@ -501,7 +487,6 @@ div {
 
   /*faculty cards end */
 
-
   /* student cards Start*/
 
   .sc {
@@ -526,7 +511,6 @@ div {
     align-items: center;
   }
 
-
   .student-card {
     display: flex;
     justify-content: space-between;
@@ -534,7 +518,6 @@ div {
     display: flex;
     flex-direction: column;
     align-items: center;
-
   }
 
   .student1,
@@ -626,7 +609,6 @@ div {
     top: 5.5vh;
   }
 
-
   .student-card .student1 a,
   .student-card .student2 a,
   .student-card .student3 a,
@@ -702,8 +684,6 @@ div {
 }
 
 @media screen and (max-width: 1079px) and (min-width: 501px) {
-
-
   .side-menu,
   .menu-icon {
     display: none;
@@ -712,7 +692,6 @@ div {
   /* Back Button  Start*/
 
   .fa-arrow-left-long {
-
     color: #ffffff;
     background-color: #000000;
     position: absolute;
@@ -758,7 +737,6 @@ div {
   }
 
   /* Designed By End */
-
 
   /* innovation start */
   .label {
@@ -826,8 +804,6 @@ div {
   }
 
   /* Big Card Images End */
-
-
 
   /* Navigation Start */
   .about {
@@ -910,13 +886,11 @@ div {
     width: 13vw;
     height: 2.6vw;
     text-align: center;
-
   }
 
   .Gallery:hover {
     box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   }
-
 
   /* Navigation End */
 
@@ -934,9 +908,6 @@ div {
   }
 
   /*Rocket picture end */
-
-
-
 
   /* Events start */
 
@@ -982,7 +953,6 @@ div {
   .eventline {
     position: absolute;
     left: 13vh;
-    ;
     top: 67.5vh;
     width: 13vw;
     border: 0.1vw black solid;
@@ -1004,7 +974,6 @@ div {
   .reportline {
     position: absolute;
     right: 11vh;
-    ;
     top: 67.5vh;
     width: 15vw;
     border: 0.1vw black solid;
@@ -1049,7 +1018,6 @@ div {
   .road {
     position: absolute;
     left: 6vh;
-    ;
     top: 123vh;
     width: 90vw;
     border: 0.1vw black solid;
@@ -1128,7 +1096,6 @@ div {
     overflow: visible;
   }
 
-
   .aboutsline {
     position: absolute;
     left: 16vh;
@@ -1185,7 +1152,6 @@ div {
     flex-direction: row;
     align-items: center;
     gap: 32vw;
-
   }
 
   .faculty1,
@@ -1200,7 +1166,6 @@ div {
     height: 15vw;
     width: 28vw;
     box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
-
   }
 
   .fac1,
@@ -1284,7 +1249,6 @@ div {
     align-items: center;
   }
 
-
   .student-card {
     display: flex;
     justify-content: space-between;
@@ -1293,7 +1257,6 @@ div {
     flex-direction: column;
     align-items: center;
     gap: 0vh;
-
   }
 
   .student1,
@@ -1312,7 +1275,6 @@ div {
     width: 25vw;
     left: -23vw;
     top: 25vh;
-
   }
 
   .student2,
@@ -1391,7 +1353,6 @@ div {
     border: 0.1vw black solid;
     top: 14vh;
   }
-
 
   .student-card .student1 a,
   .student-card .student2 a,
@@ -1479,13 +1440,9 @@ div {
   }
 
   /* Social Handles Start */
-
 }
 
 @media screen and (max-width: 1366px) and (min-width: 1080px) {
-
-
-
   .side-menu,
   .menu-icon {
     display: none;
@@ -1577,7 +1534,6 @@ div {
 
   /* innovation end */
 
-
   /* Big Card Images Start */
 
   .card {
@@ -1609,7 +1565,6 @@ div {
     display: flex;
   }
 
-
   .prev,
   .next {
     position: absolute;
@@ -1629,8 +1584,6 @@ div {
   }
 
   /* Big Card Images End */
-
-
 
   /* Navigation Start */
 
@@ -1741,7 +1694,6 @@ div {
     border: 0.1vw black solid;
   }
 
-
   .reports h1 {
     font-family: "Jua";
     display: flexbox;
@@ -1782,7 +1734,7 @@ div {
   }
 
   .events a:hover {
-    color: #ff7f0a
+    color: #ff7f0a;
   }
 
   .events ul {
@@ -1799,11 +1751,10 @@ div {
   }
 
   .reports a:hover {
-    color: #ff7f0a
+    color: #ff7f0a;
   }
 
   /* Events End */
-
 
   /* Cycle Image Start*/
   .cycle {
@@ -1822,7 +1773,6 @@ div {
   .road {
     position: absolute;
     left: 6vh;
-    ;
     top: 202vh;
     width: 90vw;
     border: 0.1vw black solid;
@@ -1908,7 +1858,6 @@ div {
     border: 0.1vw black solid;
   }
 
-
   .textbox {
     font-family: "Jua";
     color: black;
@@ -1990,7 +1939,6 @@ div {
     width: 30vw;
     box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
     right: 2vw;
-
   }
 
   .fac1,
@@ -2019,7 +1967,6 @@ div {
   .fac3 {
     top: 70%;
   }
-
 
   .facn1,
   .facn2,
@@ -2057,7 +2004,6 @@ div {
     font-size: 1.7vw;
     color: #000;
     text-decoration: none;
-
   }
 
   .faculty1 a:hover,
@@ -2091,7 +2037,6 @@ div {
     justify-content: center;
     align-items: center;
   }
-
 
   .student-card,
   .student-card2 {
@@ -2190,7 +2135,6 @@ div {
     top: 22vh;
   }
 
-
   .student-card .student1 a,
   .student-card .student2 a,
   .student-card .student3 a,
@@ -2266,7 +2210,6 @@ div {
 }
 
 @media screen and (max-width: 1441px) and (min-width: 1367px) {
-
   .side-menu,
   .menu-icon {
     display: none;
@@ -2358,7 +2301,6 @@ div {
 
   /* innovation end */
 
-
   /* Big Card Images Start */
 
   .card {
@@ -2389,7 +2331,6 @@ div {
     object-fit: cover;
     display: flex;
   }
-
 
   .prev,
   .next {
@@ -2564,7 +2505,7 @@ div {
   }
 
   .events a:hover {
-    color: #ff7f0a
+    color: #ff7f0a;
   }
 
   .reports a {
@@ -2573,11 +2514,10 @@ div {
   }
 
   .reports a:hover {
-    color: #ff7f0a
+    color: #ff7f0a;
   }
 
   /* Events End */
-
 
   /* Cycle Image Start*/
   .cycle {
@@ -2596,7 +2536,6 @@ div {
   .road {
     position: absolute;
     left: 6vh;
-    ;
     top: 202vh;
     width: 90vw;
     border: 0.1vw black solid;
@@ -2702,7 +2641,6 @@ div {
 
   /* About end */
 
-
   /*faculty cards Start*/
 
   /* shakinghands image start */
@@ -2764,7 +2702,6 @@ div {
     width: 30vw;
     box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
     right: 2vw;
-
   }
 
   .fac1,
@@ -2793,7 +2730,6 @@ div {
   .fac3 {
     top: 70%;
   }
-
 
   .facn1,
   .facn2,
@@ -2831,7 +2767,6 @@ div {
     font-size: 1.7vw;
     color: #000;
     text-decoration: none;
-
   }
 
   .faculty1 a:hover,
@@ -2841,7 +2776,6 @@ div {
   }
 
   /*faculty cards end */
-
 
   /* student cards Start*/
 
@@ -2867,7 +2801,6 @@ div {
     align-items: center;
   }
 
-
   .student-card,
   .student-card2 {
     display: flex;
@@ -2877,7 +2810,6 @@ div {
     flex-direction: row;
     align-items: center;
     gap: 90px;
-
   }
 
   .student1,
@@ -2966,7 +2898,6 @@ div {
     top: 22vh;
   }
 
-
   .student-card .student1 a,
   .student-card .student2 a,
   .student-card .student3 a,
@@ -3041,11 +2972,9 @@ div {
   }
 
   /* Social Handles Start */
-
 }
 
 @media screen and (max-width: 1921px) and (min-width: 1442px) {
-
   .side-menu,
   .menu-icon {
     display: none;
@@ -3137,7 +3066,6 @@ div {
 
   /* innovation end */
 
-
   /* Big Card Images Start */
 
   .card {
@@ -3169,7 +3097,6 @@ div {
     display: flex;
   }
 
-
   .prev,
   .next {
     position: absolute;
@@ -3189,8 +3116,6 @@ div {
   }
 
   /* Big Card Images End */
-
-
 
   /* Navigation Start */
 
@@ -3294,18 +3219,16 @@ div {
   }
 
   .events a:hover {
-    color: #ff7f0a
+    color: #ff7f0a;
   }
 
   .eventline {
     position: absolute;
     left: 38.5vh;
-    ;
     top: 115vh;
     width: 7.2vw;
     border: 0.1vw black solid;
   }
-
 
   .reports h1 {
     font-family: "Jua";
@@ -3326,13 +3249,12 @@ div {
   }
 
   .reports a:hover {
-    color: #ff7f0a
+    color: #ff7f0a;
   }
 
   .reportline {
     position: absolute;
     right: 44.2vh;
-    ;
     top: 115vh;
     width: 8.5vw;
     border: 0.1vw black solid;
@@ -3359,7 +3281,6 @@ div {
 
   /* Events End */
 
-
   /* Cycle Image Start*/
   .cycle {
     position: absolute;
@@ -3377,7 +3298,6 @@ div {
   .road {
     position: absolute;
     left: 6vh;
-    ;
     top: 202vh;
     width: 90vw;
     border: 0.1vw black solid;
@@ -3544,7 +3464,6 @@ div {
     width: 30vw;
     box-shadow: 0.7vw 0.7vw 1vw #ff7f0a;
     right: 2vw;
-
   }
 
   .fac1,
@@ -3573,7 +3492,6 @@ div {
   .fac3 {
     top: 70%;
   }
-
 
   .facn1,
   .facn2,
@@ -3611,7 +3529,6 @@ div {
     font-size: 1.7vw;
     color: #000;
     text-decoration: none;
-
   }
 
   .faculty1 a:hover,
@@ -3621,7 +3538,6 @@ div {
   }
 
   /*faculty cards end */
-
 
   /* student cards Start*/
 
@@ -3647,7 +3563,6 @@ div {
     align-items: center;
   }
 
-
   .student-card,
   .student-card2 {
     display: flex;
@@ -3657,7 +3572,6 @@ div {
     flex-direction: row;
     align-items: center;
     gap: 90px;
-
   }
 
   .student1,
@@ -3751,7 +3665,6 @@ div {
     top: 22vh;
   }
 
-
   .student-card .student1 a,
   .student-card .student2 a,
   .student-card .student3 a,
@@ -3827,7 +3740,6 @@ div {
 
   /* Social Handles end */
 }
-
 
 .boxes1 span,
 .boxes2 span {

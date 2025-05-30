@@ -1,4 +1,3 @@
-
 body,
 div {
   margin: 0;
@@ -15,7 +14,6 @@ div {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 20vh;
   flex-direction: row;
  background-color: black;
 }
@@ -76,10 +74,6 @@ div {
     text-decoration: none;
     text-align: center;
   }
-
-/*   .fa-arrow-left-long:hover {
-    box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
-  } */
 
 
   .design {
@@ -154,8 +148,6 @@ div {
 @media screen and (max-width: 1024px) and (min-width: 768px)
 {
 
- /* Children Image Start */
-
  .fun {
   position: absolute;
   background-color: #ffffff;
@@ -169,8 +161,6 @@ div {
 }
 
 
-
-/* Childern Image End */
 
 .content {
   position: relative;
@@ -203,9 +193,6 @@ div {
   left: 16vw;
 }
 
-/* Content End */
-
- /* Rabbit picture Start */
 
  .rabbit {
   position: absolute;
@@ -221,9 +208,6 @@ div {
 }
 
 
-/* Rabbit picture End */
-
-/* Back Button  Start*/
 
 .fa-arrow-left-long {
   color: #ffffff;
@@ -247,9 +231,6 @@ div {
 }
 
 
-/* Back Button End */
-
- /* Designed By Start */
 
  .design {
   color: #ffffff;
@@ -273,9 +254,6 @@ div {
   box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
 }
 
-/* Designed By End */
-
-/* Explore Button Start */
 .explore {
   display: none;
   
@@ -283,9 +261,6 @@ div {
 
 
 
-/* Explore Button End */
-
- /* Cards Start*/
  .container {
   font-family: "Jua";
   position: relative;
@@ -327,7 +302,6 @@ div {
   text-decoration: none;
 }
 
-/* Card Hover Zoom Start */
 .text-card {
   overflow: hidden;
   transition: all 0.3s ease-in-out;
@@ -351,7 +325,6 @@ div {
   text-decoration: none;
 }
 
-/* Card Hover Zoom Start */
 .text-card {
   overflow: hidden;
   transition: all 0.3s ease-in-out;
@@ -361,14 +334,11 @@ div {
   transform: scale(1.05);
 }
 
-/* Card Hover Zoom End */
-/* Cards End*/
 }
 
 @media screen and (max-width: 1366px) and (min-width: 1080px) 
 {
 
-  /* Children Image Start */
 
   .fun {
     position: absolute;
@@ -382,10 +352,7 @@ div {
     top: 0.5vh;
   }
 
-  /* Childern Image End */
 
-
-  /* Content Start */
 
   .content {
     position: relative;
@@ -417,9 +384,7 @@ div {
     left: 16vw;
   }
 
-  /* Content End */
 
-  /* Back Button  Start*/
 
   .fa-arrow-left-long {
     color: #ffffff;
@@ -443,9 +408,6 @@ div {
   
 
 
-  /* Back Button End */
-
-  /* Designed By Start */
 
   .design {
     color: #ffffff;
@@ -468,9 +430,6 @@ div {
     box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   }
 
-  /* Designed By End */
-
-  /* Rabbit picture Start */
 
   .rabbit {
     position: absolute;
@@ -484,10 +443,7 @@ div {
     top: 63vh;
   }
 
-  /* Rabbit picture End */
-
-
-  /* Cards Start*/
+ 
   .container {
     font-family: "Jua";
     position: relative;
@@ -530,7 +486,6 @@ div {
     text-decoration: none;
   }
 
-  /* Card Hover Zoom Start */
   .text-card {
     overflow: hidden;
     transition: all 0.3s ease-in-out;
@@ -540,11 +495,6 @@ div {
     transform: scale(1.05);
   }
 
-  /* Card Hover Zoom End */
-
-  /* Cards End*/
-
-  /* Explore Button Start */
   .explore {
     color: #ffffff;
     background-color: #000000;
@@ -567,14 +517,12 @@ div {
     box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   }
 
-  /* Explore Button End */
 
 }
 
 @media screen and (max-width: 1441px) and (min-width: 1367px) 
 {
 
-  /* Children Image Start */
 
   .fun {
     position: absolute;
@@ -588,10 +536,6 @@ div {
     top: 0.9vh;
   }
 
-  /* Childern Image End */
-
-
-  /* Content Start */
 
   .content {
     position: relative;
@@ -623,9 +567,7 @@ div {
     left: 10vw;
   }
 
-  /* Content End */
 
-  /* Back Button  Start*/
 
   .fa-arrow-left-long {
     color: #ffffff;
@@ -649,9 +591,6 @@ div {
   }
 
 
-  /* Back Button End */
-
-  /* Designed By Start */
 
   .design {
     color: #ffffff;
@@ -674,9 +613,6 @@ div {
     box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   }
 
-  /* Designed By End */
-
-  /* Rabbit picture Start */
 
   .rabbit {
     position: absolute;
@@ -690,10 +626,6 @@ div {
     top: 63vh;
   }
 
-  /* Rabbit picture End */
-
-
-  /* Cards Start*/
   .container {
     font-family: "Jua";
     position: relative;
@@ -736,7 +668,6 @@ div {
     text-decoration: none;
   }
 
-  /* Card Hover Zoom Start */
   .text-card {
     overflow: hidden;
     transition: all 0.3s ease-in-out;
@@ -746,11 +677,6 @@ div {
     transform: scale(1.05);
   }
 
-  /* Card Hover Zoom End */
-
-  /* Cards End*/
-
-  /* Explore Button Start */
   .explore {
     color: #ffffff;
     background-color: #000000;
@@ -773,14 +699,12 @@ div {
     box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   }
 
-  /* Explore Button End */
 
 }
 
 @media screen and (max-width: 1925px) and (min-width: 1442px) 
 {
 
-  /* Children Image Start */
 
   .fun {
     position: absolute;
@@ -794,10 +718,6 @@ div {
     top: 0.9vh;
   }
 
-  /* Childern Image End */
-
-
-  /* Content Start */
 
   .content {
     position: relative;
@@ -828,10 +748,7 @@ div {
     top: -1vh;
     left: 8vw;
   }
-
-  /* Content End */
-
-  /* Back Button  Start*/
+  
 
   .fa-arrow-left-long {
     color: #ffffff;
@@ -855,9 +772,6 @@ div {
   }
 
 
-  /* Back Button End */
-
-  /* Designed By Start */
 
   .design {
     color: #ffffff;
@@ -880,9 +794,7 @@ div {
     box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   }
 
-  /* Designed By End */
-
-  /* Rabbit picture Start */
+  
 
   .rabbit {
     position: absolute;
@@ -896,10 +808,7 @@ div {
     top: 63vh;
   }
 
-  /* Rabbit picture End */
-
-
-  /* Cards Start*/
+  
   .container {
     font-family: "Jua";
     position: relative;
@@ -942,7 +851,6 @@ div {
     text-decoration: none;
   }
 
-  /* Card Hover Zoom Start */
   .text-card {
     overflow: hidden;
     transition: all 0.3s ease-in-out;
@@ -952,11 +860,6 @@ div {
     transform: scale(1.05);
   }
 
-  /* Card Hover Zoom End */
-
-  /* Cards End*/
-
-  /* Explore Button Start */
   .explore {
     color: #ffffff;
     background-color: #000000;
@@ -979,6 +882,12 @@ div {
     box-shadow: 0.46875vw 0.15625vw 0.3125vw #ff7f0a;
   }
 
-  /* Explore Button End */
-
 }
+
+
+
+
+
+
+
+
